@@ -1,0 +1,48 @@
+{
+  "name": "uid-gen",
+  "version": "0.1.0",
+  "description": "Short non-sequential unique id generator in a given format.",
+  "keywords": [
+    "id",
+    "uuid",
+    "tiny",
+    "uid",
+    "idgen",
+    "short",
+    "mongoid",
+    "shorten",
+    "shortid",
+    "bitly",
+    "unique"
+  ],
+  "homepage": "http://github.com/domudall/uid-gen",
+  "author": "Dom Udall <dom@synthmedia.co.uk>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/domudall/uid-gen"
+  },
+  "bugs": {
+    "mail": "dom@synthmedia.co.uk",
+    "url": "http://github.com/domudall/uid-gen/issues"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "licenses": [
+    {
+      "type": "New BSD",
+      "url": "https://raw.github.com/domudall/uid-gen/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "crc": "~0.2.0"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.12.0"
+  }
+}
