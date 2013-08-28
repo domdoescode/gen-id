@@ -27,4 +27,30 @@ describe('testing gen-id', function (done) {
     done()
   })
 
+  it('should only provide numbers for numeric format', function (done) {
+    formatTester(/^\d+$/, 'nnnnnnn', done)
+  })
+
+  it('should only provide lowercase letters for alphabet format', function (done) {
+    formatTester(/^[a-z]+$/, 'aaaaaa', done)
+  })
+
+  it('should only provide mixed letters for alphabet format', function (done) {
+    formatTester(/^[a-zA-Z]+$/, 'AAAAAA', done)
+  })
+
+  function formatTester(pattern, format, callback) {
+    var id
+      , i=10000
+
+    genId.setFormat(format)
+
+    while(i--) {
+      id = genId.generate()
+      pattern.test(id).should.be.true
+    }
+
+    callback()
+  }
+
 })
