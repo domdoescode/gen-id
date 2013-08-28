@@ -27,20 +27,4 @@ describe('testing gen-id', function (done) {
     done()
   })
 
-  // it('should run a bunch and never get duplicates', function (done) {
-  //   var ids = {}
-  //     , id
-  //     , i=1000
-
-  //   genId.setFormat('nnnnnnnc')
-
-  //   while(i--) {
-  //     id = genId.generate()
-  //     should.equal(undefined, ids[id])
-  //     id.should.have.length(8)
-  //     ids[id] = 1
-  //   }
-  //   done()
-  // })
-
 })
