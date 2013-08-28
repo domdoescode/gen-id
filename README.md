@@ -2,10 +2,12 @@
 
 [![NPM](https://nodei.co/npm/gen-id.png?downloads=true)](https://nodei.co/npm/uid-gen/)
 
-var genId = require('gen-id')
+````
+var genId = require('gen-id')('nnnnnnnc')
+  , orderId = genId.generate()
 
-genId.seed()
-
+console.log(orderId)
+````
 
 Initial available formats:
 
@@ -17,4 +19,4 @@ Initial available formats:
 * X - alpha-numeric (case inclusive) [0-9a-zA-Z]
 * c - checksum
 
-You can define your own formats and set them within the system:
+You can change the format at any point by using genId.setFormat()
