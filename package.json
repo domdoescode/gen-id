@@ -22,15 +22,11 @@
     "url": "http://github.com/domudall/uid-gen"
   },
   "bugs": {
-    "mail": "dom@synthmedia.co.uk",
     "url": "http://github.com/domudall/uid-gen/issues"
   },
   "main": "./lib/index.js",
   "engines": {
     "node": ">=0.8.x"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "licenses": [
     {
@@ -44,5 +40,14 @@
   "devDependencies": {
     "chai": "~1.7.2",
     "mocha": "~1.12.0"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "14884be1422a67f4f99a7a5775d84c7990853aa1",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
 }
