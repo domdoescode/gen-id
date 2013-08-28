@@ -1,5 +1,5 @@
 {
-  "name": "uid-gen",
+  "name": "gen-id",
   "version": "0.1.0",
   "description": "Short non-sequential unique id generator in a given format.",
   "keywords": [
@@ -15,14 +15,14 @@
     "bitly",
     "unique"
   ],
-  "homepage": "http://github.com/domudall/uid-gen",
+  "homepage": "http://github.com/domudall/gen-id",
   "author": "Dom Udall <dom@synthmedia.co.uk>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/domudall/uid-gen"
+    "url": "http://github.com/domudall/gen-id"
   },
   "bugs": {
-    "url": "http://github.com/domudall/uid-gen/issues"
+    "url": "http://github.com/domudall/gen-id/issues"
   },
   "main": "./lib/index.js",
   "engines": {
@@ -31,7 +31,7 @@
   "licenses": [
     {
       "type": "New BSD",
-      "url": "https://raw.github.com/domudall/uid-gen/master/LICENSE"
+      "url": "https://raw.github.com/domudall/gen-id/master/LICENSE"
     }
   ],
   "dependencies": {
