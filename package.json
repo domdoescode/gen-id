@@ -38,8 +38,8 @@
     "crc": "~0.2.0"
   },
   "devDependencies": {
-    "chai": "~1.7.2",
-    "mocha": "~1.12.0"
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
   },
   "readmeFilename": "README.md",
   "gitHead": "14884be1422a67f4f99a7a5775d84c7990853aa1",
@@ -47,7 +47,7 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "license": "BSD"
 }
